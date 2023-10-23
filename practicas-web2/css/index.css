@@ -1,0 +1,34 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+    padding: 0;}
+
+body {background-image: url(/img/confetti-index.svg);}
+
+h1 {font-size: 3em;
+    padding: 20px 0px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background-color: #5984ac;
+    color: aliceblue;}
+
+.contenido {padding: 20px 60px;}
+
+.contenido li {font-size: 1.3em;
+               font-family: 'Lexend', sans-serif;}
+
+hr {height: 10px;
+    background-color: #223d56;
+    border: none;}
+
+h2 {font-size: 1.7em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Lexend', sans-serif;
+    color: #223d56;}
+
+
+
+
+
+

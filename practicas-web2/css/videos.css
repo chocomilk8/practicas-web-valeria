@@ -1,0 +1,35 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+    padding: 0;}
+
+
+body { background-image: url(/img/confetti.jpeg) ;
+    background-size: 400px;}
+
+
+h1 { text-align: center; 
+    padding: 20px 0px;
+    background: #5bb9b0;
+    color: white;
+    font-family: 'Rowdies', cursive;
+    font-weight: lighter;}
+
+.cabecera small { text-align: center; 
+                display: block;
+                margin-top: 15px;
+                font-size: 1.1em;
+                font-family: 'Rowdies', cursive;
+                font-weight: lighter;}
+
+.principal table {text-align: center;
+                    margin: auto;}
+
+.videos {width: 80%;
+        display: flex;
+        margin: auto;}
+
+.items {width: 50%;}
+
+.items video, .items iframe {width: 100%;
+                            height: 300px;}

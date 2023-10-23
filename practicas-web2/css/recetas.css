@@ -1,0 +1,81 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+    padding: 0;}
+
+.cuerpo {margin: 1em 2em;
+        padding: 0em 2em;
+        background-color:rgb(255, 244, 230);}
+
+.imagen {background-image: url(/img/pastel.jpg);
+        background-size: contain;
+        position: fixed;
+        width: 15em;
+        height: 15em;}
+
+.pastel img {       float: left;
+                    height: 20em;
+                    max-width: 20em;
+                    min-width: 10em;
+                    min-height: 10em;
+                    max-width: 20em;
+                    padding: 20px 6em 20px 0px;
+                    object-fit: cover;}
+
+.cabecera img {padding: 20px 0px 0px 0px;
+                margin: auto;
+                display: flex;
+                width: 4em;}
+
+hr {height: 30px;
+    background-color: rgb(232, 116, 93);
+    border: none;}
+
+h1 {font-size: 2.5em;
+    line-height: 1;
+    color: rgb(133, 48, 48);
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Jost', sans-serif;}
+
+h2 {padding: 15px;
+    text-align: left;
+    font-family: 'Jost', sans-serif;
+    color: rgb(194, 102, 40);}
+
+li, p {font-family: 'Jost', sans-serif;}
+
+.preparacion li {text-align: justify;
+                padding-bottom: 10px;
+                font-size: 1em;}
+
+.pastel li {font-size: 1.1em;}
+
+.pastel p { font-size: 1.2em;
+                  font-weight: bold; }
+
+.ingredientesflex { display: flex; 
+                    flex-wrap: wrap;
+                    height: 500px;
+                    flex-direction: row;
+                    gap: 20px;}
+
+.pastel {flex-flow: column wrap;
+        width: 100%;
+        height: 400px;}
+
+.subtitulo {width: 100%;
+            text-align: center;
+            height: 30px;}
+
+.titulo {align-self: flex-start;
+         width: 100%;}
+
+.imagenes {
+     padding-top: 30px;
+     margin: auto;
+     display: flex;}
+
+.imagenes img {width: 15em;
+                padding: 0px 0px 0px 20px;
+                margin: auto;}
