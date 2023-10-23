@@ -1,0 +1,18 @@
+/*Documento CSS*/
+/*partes: selector --- {}declaracion-> {propiedad-valor ;fin declaración;}*/
+
+body {background-color: rgb(198, 152, 246);}
+
+h1 { color: rgb(22, 29, 114);
+    text-align: center;}
+
+h2, h4 {color: antiquewhite;
+        font-family: Verdana;}
+
+h3, h5 { color: aliceblue;}
+
+h6 {color: mintcream;}
+
+p {color: rgb(79, 19, 79);}
+
+
